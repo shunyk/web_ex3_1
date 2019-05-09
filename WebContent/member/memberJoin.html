@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="/web_ex3/css/layout.css">
+<link type="text/css" rel="stylesheet" href="/web_ex3/css/member.css">
+</head>
+<body>
+	<!-- header start -->
+	<div id="header">
+		<div id="inheader">
+			<div id="header_logo">
+				<a href="/web_ex3/index.html"><img alt="logo"
+					src="/web_ex3/img/logo.png"></a>
+			</div>
+			<div id="header_nav">
+				<ul>
+					<li><a href="/web_ex3/company/company.html">COMPANY</a></li>
+					<li><a href="#">ARTISTS</a></li>
+					<li><a href="#">PR CENTER</a></li>
+					<li><a href="#">AUDITION</a></li>
+				</ul>
+			</div>
+			<div id="header_subnav">
+				<ul>
+					<li><a href="#">LOGIN</a></li>
+					<li><a href="#">JOIN</a></li>
+					<li>|</li>
+					<li><a href="#" id="ko">KO</a></li>
+					<li><a href="#">EN</a></li>
+					<li><a href="#">JP</a></li>
+					<li><a href="#">CN</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	<!-- header end -->
+	<!-- main start -->
+	<div id=main>
+	<h1>카카오계정 정보입력</h1>
+	<hr>
+	<table>
+		<tr>
+			<td id="text">카카오계정 이메일</td>
+			<td id="input"><input type="text">@<input type="text"> <select>
+					<option selected>도메인 선택</option>
+					<option>naver.com</option>
+					<option>gmail.com</option>
+					<option>hanmail.net</option>
+					<option>daum.net</option>
+			</select>
+				<ul>
+					<li>·입력한 이메일로 인증메일이 발송됩니다.</li>
+					<li>·실제로 사용중인 이메일주소를 입력해주세요. 비밀번호 분실 시 이메일을 통해 재설정이 가능합니다</li>
+				</ul></td>
+		</tr>
+		<tr>
+			<td id="text">비밀번호(8~32자리)</td>
+			<td id="input"><input type="password" maxlength="32"></td>
+		</tr>
+		<tr>
+			<td id="text">비밀번호 재입력</td>
+			<td id="input"><input type="password" maxlength="32">
+				<ul>
+					<li>·비밀번호 8 ~ 32 자의 영문 대소문자, 숫자, 특수문자를 조합하여 설정해주세요.</li>
+					<li>·다른사이트에서 사용하는 것과 동일하거나 쉬운 비밀번호는 사용하지 마세요.</li>
+					<li>·안전한 계정 사용을 위해 비밀번호는 주기적으로 변경해주세요.</li>
+				</ul></td>
+		</tr>
+		<tr>
+			<td id="text">닉네임</td>
+			<td id="input"><input type="text" ></td>
+		</tr>
+		<tr>
+			<td id="text">생년월일</td>
+			<td id="input"><select>
+					<option selected>연도</option>
+					<option>2005</option>
+					<option>2004</option>
+					<option>2003</option>
+					<option>2002</option>
+					<option>2001</option>
+					<option>2000</option>
+					<option>1999</option>
+			</select> <select>
+					<option selected>월</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+			</select> <select>
+					<option selected>일</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>22</option>
+					<option>30</option>
+			</select> <input name="calendar" type="checkbox">음력 <input
+				name="calendar" type="checkbox">윤달</td>
+		</tr>
+		<tr>
+			<td id="text">성별</td>
+			<td id="input"><input name="gender" type="radio">남성 <input
+				name="gender" type="radio">여성 <input name="gender"
+				type="radio" checked="checked">선택안함</td>
+		</tr>
+		<tr>
+			<td id="foot" colspan="2"><input type="button" value="완료" id="button"></td>
+		</tr>
+	</table>
+	<hr>
+	<p>
+	이미 계정이 있다면?
+	<a href="/web_ex3/member/memberLogin.html">로그인하러 가기</a></p>
+	</div>
+	<!-- main end -->
+	<!-- footer start -->
+	<div id="footer">
+		<div id="infooter">
+			<div id="footer_logo">
+				<a href="/web_ex3/index.html"><img alt="ft_logo"
+					src="/web_ex3/img/ft_logo.png"></a>
+			</div>
+			<div id="footer_nav">
+				<ul>
+					<li style="font-size: 12.5px;"><a href="#" id="a">개인정보취급방침</a>
+						| <a href="#" id="a">이용약관</a> | <a href="#" id="a">고객센터/문의하기
+							(Customer Service)</a></li>
+					<li style="margin-top: 7px; font-weight: bold;">서울시 강남구 청담동
+						111 (주) FNC ENTERTAINMENT | TEL. 02) 517-5426 | FAX. 02) 518-5428</li>
+					<li style="color: #717171">COPYRIGHT © 2014 FNCENT.COM ALL
+						RIGHT RESERVED</li>
+				</ul>
+			</div>
+			<div id="footer_select">
+				<select>
+					<option>FNC KINGDOM SITE</option>
+					<option>FNC JAPAN</option>
+					<option>FNC STORE</option>
+					<option>FNC FACEBOOK</option>
+					<option>FNC ACADEMY</option>
+					<option>FNC GLOBAL TRAINING CENTER</option>
+					<option>FNC NEOZ SCHOOL</option>
+					<option>LOVE FNC FOUNDATION</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+</body>
+</html>

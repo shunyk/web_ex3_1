@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+#main {
+	background-color: white;
+}
+
+#main>h1, p {
+	text-align: center;
+}
+
+#main>table {
+	height: 700px;
+	font-size: 15px;
+}
+
+#main>tr{
+	padding-left: 30px;
+}
+
+#main ul{
+	list-style: none;
+}
+
+#main li{
+	font-size: 13px;
+	color: gray;
+}
+
+#input{
+	padding-left: 50px;
+}
+
+#input > input{
+	color: gray;
+}
+
+#text{
+	padding-left: 35px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#button {
+	font-size: 30px;
+	background-color: gray;
+	border: 1px solid gray;
+	border-radius: 40px;
+	color: white;
+	margin: 0 auto;
+	width: 80px;
+}
+
+#foot {
+	padding-left: 400px;
+}
